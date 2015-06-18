@@ -32,6 +32,8 @@ gem "will_paginate"
 # gem 'unicorn'
 group :test do
 	gem 'capybara', "2.0.2"
+
+  gem 'sqlite3'
 	
 	gem 'factory_girl', '4.2.0'
 end
@@ -45,14 +47,13 @@ group :development, :test do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
-  gem 'sqlite3'
-
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
   gem "rspec-rails", '~> 2.14.0.rc1'
   #gem 'rspec-rails', "~> 2.13.2"
 end
+
 
 group :production do
   gem 'pg'
