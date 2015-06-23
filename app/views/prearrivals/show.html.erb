@@ -8,7 +8,7 @@
 		      	<p><%= @prearrival.description %></p>
 		      	<hr class="third">
 		      	<%= image_tag(@prearrival.image) %>
-		      	<div class="pad"><button><%= link_to 'Back', prearrivals_path %></button></div>
+		      	<div class="pad"><a href="/prearrivals"><button>Back</button></a></div>
 		      	<h3><% if current_user %><%= link_to 'Edit', edit_prearrival_path(@prearrival) %>
 				<% end %><h3>
 			</div>

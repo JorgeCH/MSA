@@ -8,7 +8,7 @@
 		      	<p><%= @formality.description %></p>
 		      	<hr class="third">
 		      	<%= image_tag(@formality.image) %>
-		      	<div class="pad"><button><%= link_to 'Back', formalities_path %></button></div>
+		      	<div class="pad"><a href="/formalities"><button>Back</button></a></div>
 		      	<h3><% if current_user %><%= link_to 'Edit', edit_formality_path(@formality) %>
 				<% end %><h3>
 			</div>

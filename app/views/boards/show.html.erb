@@ -1,13 +1,38 @@
-<p id="notice"><%= notice %></p>
+<div class="main" id="two">
+  <div class="container">
+    <div class="content">
+      <div class="left-cont">
+        <div class="board-img">
+            <%= image_tag(@board.photo) %></td>
+        </div>
+        <h3><p>Email: <%= @board.email %></p></h3>
+        <h3>
+          <% if current_user %> 
+            <p><%= link_to 'Edit', edit_board_path(@board) %></p>
+          <% end %>
+        </h3>
+        <div class="pad"><a href="/boards"><button>Back</button></a></div>
+      </div>
+
+      <div class="right-cont">
+      <hr class="first">
+        <h1><%= @board.name %></h1>
+        <hr class="second">
+        <p><%= @board.description %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <p>
   <strong>Name:</strong>
-  <%= @board.name %>
+  
 </p>
 
 <p>
   <strong>Position:</strong>
-  <%= @board.position %>
+  
 </p>
 
 <p>
@@ -17,7 +42,7 @@
 
 <p>
   <strong>Year:</strong>
-  <%= @board.year %>
+  
 </p>
 
 <p>

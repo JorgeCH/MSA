@@ -3,13 +3,13 @@
     <div class="content">
      	<div class="left-cont">
 		    <h3><p>Dirección: <%= link_to(@scholarship.address) %></p></h3>
-		    <h3><p>Link: <%= link_to(@scholarship.link) %></p></h3>
+		    <h3><p>Link: <%= link_to @scholarship.link, @scholarship.link%></p></h3>
 		    <h3>
 		    	<% if current_user %> 
 					<p><%= link_to 'Edit', edit_scholarship_path(@scholarship) %></p>
 		        <% end %>
 		    </h3>
-		    <div class="pad"><button><%= link_to 'Back', scholarships_path %></button>
+		    <div class="pad"><a href="/scholarships"><button>Back</button></a>
 		    </div>
     	</div>
       	<div class="right-cont">
@@ -17,7 +17,7 @@
             <h1><%= @scholarship.name %></h1>
             <hr class="second">
             <p><%= @scholarship.description %></p>
-
+          </div>
       	</div>
     </div>
 </div>

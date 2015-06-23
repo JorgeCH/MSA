@@ -13,7 +13,7 @@
               <%= image_tag(@life.image3) %>
               <%= image_tag(@life.photo) %>
             </div>
-            <div class="pad"><button><%= link_to 'Back', lives_path %></button></div>
+            <div class="pad"><a href="/lives"><button>Back</button></a></div>
             <h3><% if current_user %><%= link_to 'Edit', edit_life_path(@life) %></h3>
         <% end %>
       </div>

@@ -27,7 +27,7 @@
       </div>
       <div class="new">
         <% if current_user %>
-          <button><%= link_to 'New Scholarship', new_scholarship_path %></button>
+          <%= link_to 'New Scholarship', new_scholarship_path %>
         <% end %>
         <div class="digg_pagination">
         <%= will_paginate @prearrivals %>

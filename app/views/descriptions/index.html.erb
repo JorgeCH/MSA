@@ -27,8 +27,12 @@
               <td><%= link_to 'Edit', edit_description_path(description) %></td>
             <% end %>
           </div>
-        <% end %>  
-        </div>
+        <% end %>
+        <div class="new">
+          <% if current_user %>
+            <%= link_to 'New', new_description_path %>
+          <% end %>
+        </div>  
       </div>
     </div>
   </div>

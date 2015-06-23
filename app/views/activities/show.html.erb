@@ -5,14 +5,14 @@
       <div class="left-cont">
         <h3><p>Fecha: <%= @activity.date %></p></h3>
         <h3><p>Lugar: <%= @activity.place %></p></h3>
-        <h3><p>Link de Facebook: <%= link_to(@activity.linkfb) %></p></h3>
+        <h3><p>Link de Facebook: <%= link_to @activity.linkfb, @activity.linkfb %></p></h3>
         <h3><p>Contacto: <%= @activity.contact %></p></h3>
         <h3>
           <% if current_user %> 
             <p><%= link_to 'Edit', edit_activity_path(@activity) %></p>
           <% end %>
         </h3>
-        <div class="pad"><button><%= link_to 'Back', activities_path %></button></div>
+        <div class="pad"><a href="/activities"><button>Back</button></a></div>
       </div>
 
       <div class="right-cont">
