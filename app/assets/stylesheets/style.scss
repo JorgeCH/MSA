@@ -247,7 +247,11 @@ form{
 #two .content h2{
 	text-align: left;
 	margin-top: 0;
-	
+}
+
+#two .content a {
+  text-align: left;
+  margin-bottom: 5%;
 }
 
 #three .content h1, h2{
@@ -321,7 +325,7 @@ form{
 	width: 35%;
 	height: 100%;
 	float: left;
-	text-align: right;
+	text-align: center;
 }
 
 #aviso #color{
@@ -366,8 +370,7 @@ form{
 #two .edit{
 	width: 100%;
 	float: left;
-	padding-bottom: 2%;
-	margin: 0 auto;
+	margin: 1.5% auto;
 }
 
 #two .new{
@@ -806,4 +809,103 @@ hr.third {
 	margin: 9.5% auto;
 	text-align: center;
 	font-size: 3em;
+}
+
+#two .show-cont img {
+  max-height: 100%;
+  max-width: 98%;
+  padding-left: 1%;
+  padding-right: 1%;
+  float: left;
+}
+
+#two .list2 .inside-text p{
+	height: 50px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+
+#one .container{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#two .col{
+	width: 90%;
+}
+
+#two h2{
+	font-size: 1.7em;
+}
+
+#two .col p{
+	font-size: 1.5em;
+	height: 55px;
+}
+
+#three .content h1{
+	font-size: 2.5em;
+}
+
+#three p{
+	font-size: 1.2em;
+}
+
+#three .container{
+	margin-left: 15%;
+	margin-right: 15%;
+} 
+
+#two .left-cont{
+	width: 30%
+}
+
+#two .right-cont{
+	width: 64%;
+}
+
+#two .list .inside-img{
+	width: 25%;
+
+}
+
+#two .list .inside-text{
+	width: 75%;
+
+}
+#two .list p{
+	font-size: 1.3em;
+	height: 73px;
+}
+
+#two .left-cont p {
+  	font-size: 1em;
+}
+
+#two .right-cont p{
+	font-size: 1.3em;
+}
+
+#two .show-cont p {
+  	font-size: 1.3em;
+}	
+
+#two .list2 .inside-text p{
+	font-size: 1.3em;
+	height: 55px;
+}
+
+#two .list2 .inside-text a{
+	font-size: 1.3em;
+}
+
+#two .board {
+  	width: 32%;
+  	padding-right: .66%;
+  	padding-left: .66%;
+}
+
+
+
 }

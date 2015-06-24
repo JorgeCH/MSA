@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get "/login", to: "sessions#new"
   post "/login", to: "sessions#create"
-  delete "/logout", to: "sessions#destroy", as: "logout"
+  get "/logout", to: "sessions#destroy", as: "logout"
 
   resources :descriptions
 
@@ -34,6 +34,8 @@ Rails.application.routes.draw do
   resources :msas
 
   resources :users
+
+  # <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
