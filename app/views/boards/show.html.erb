@@ -18,7 +18,7 @@
       <hr class="first">
         <h1><%= @board.name %></h1>
         <hr class="second">
-        <p><%= @board.description %></p>
+        <p><%= simple_format(@board.description) %></p>
       </div>
     </div>
   </div>

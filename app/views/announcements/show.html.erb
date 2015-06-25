@@ -5,7 +5,7 @@
 	            <hr class="first">
 	            <h1><%= @announcement.title %></h1>
 	            <hr class="second">
-	            <p><%= @announcement.description %></p>
+	            <p><%= simple_format(@announcement.description) %></p>
 	            <hr class="third">
 	            <div class="pad"><a href="/announcements"><button>Back</button></a></div>
 	            <h3><% if current_user %><%= link_to 'Edit', edit_announcement_path(@announcement) %></h3>

@@ -16,7 +16,7 @@
             <hr class="first">
             <h1><%= @scholarship.name %></h1>
             <hr class="second">
-            <p><%= @scholarship.description %></p>
+            <p><%= simple_format(@scholarship.description) %></p>
           </div>
       	</div>
     </div>
