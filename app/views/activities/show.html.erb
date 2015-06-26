@@ -2,6 +2,16 @@
   <div class="container">
     <div class="content">
 
+
+      <div class="right-cont">
+      <hr class="first">
+        <h1><%= @activity.name %></h1>
+        <hr class="second">
+        <p><%= simple_format(@activity.description) %></p>
+        <hr class="third">
+        <%= image_tag(@activity.photo1) %>
+        <%= image_tag(@activity.photo2) %>
+      </div>
       <div class="left-cont">
         <h3><p>Fecha: <%= @activity.date %></p></h3>
         <h3><p>Lugar: <%= @activity.place %></p></h3>
@@ -13,16 +23,6 @@
           <% end %>
         </h3>
         <div class="pad"><a href="/activities"><button>Back</button></a></div>
-      </div>
-
-      <div class="right-cont">
-      <hr class="first">
-        <h1><%= @activity.name %></h1>
-        <hr class="second">
-        <p><%= simple_format(@activity.description) %></p>
-        <hr class="third">
-        <%= image_tag(@activity.photo1) %>
-        <%= image_tag(@activity.photo2) %>
       </div>
 
     </div>

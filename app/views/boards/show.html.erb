@@ -1,6 +1,12 @@
 <div class="main" id="two">
   <div class="container">
     <div class="content">
+      <div class="right-cont">
+      <hr class="first">
+        <h1><%= @board.name %></h1>
+        <hr class="second">
+        <p><%= simple_format(@board.description) %></p>
+      </div>
       <div class="left-cont">
         <div class="board-img">
             <%= image_tag(@board.photo) %></td>
@@ -14,12 +20,6 @@
         <div class="pad"><a href="/boards"><button>Back</button></a></div>
       </div>
 
-      <div class="right-cont">
-      <hr class="first">
-        <h1><%= @board.name %></h1>
-        <hr class="second">
-        <p><%= simple_format(@board.description) %></p>
-      </div>
     </div>
   </div>
 </div>

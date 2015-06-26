@@ -9,13 +9,15 @@
     <div class="content">
       <div class="list">
 
-        <h1>Listing Descriptions</h1>
+        <h1>MSA</h1>
 
         <% @descriptions.limit(1).each do |description| %>
 
+        <% if false %>
           <div class="logo">
             <%= link_to image_tag(description.logo), description %>
           </div>
+        <% end %>
           
           <div class="text">
             <h2><%= link_to description.name,  description %></h2>

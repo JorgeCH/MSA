@@ -80,8 +80,8 @@ form{
 }
 
 #slider img{
-	max-height: 100%;
-	max-width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 #one .container{
@@ -363,8 +363,8 @@ form{
 }
 
 #two .inside-img img{
-	max-width:90%;
-	max-height:90%;
+	width:90%;
+	height:90%;
 }
 
 #two .edit{
@@ -407,7 +407,7 @@ form{
 }
 
 #two .list .text{
-	width: 75%;
+	width: 100%;
 }
 
 #two .board{
@@ -423,8 +423,8 @@ form{
 }
 
 #two .board-img img{
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 #two .board .board-text{
@@ -444,9 +444,11 @@ form{
 	display: inline-table;
 	height: 506px;
 	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
 	padding-left: 1%;
 	padding-right: 1%;
-	padding-top: 1%;
+	margin-top: 1%;
 	color: #fff;
 	background-color: rgba(48,79,254,0.8); 
 }
@@ -477,8 +479,10 @@ form{
 
 #two .right-cont{
 	width: 74%;
-	padding-left: 2%;
-	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 1%;
+	float: right;
 	text-align: left;
 }
 
@@ -492,8 +496,8 @@ form{
 }
 
 #two .right-cont img{
-	max-height: 50%;
-	max-width: 48%;
+	height: 50%;
+	width: 48%;
 	padding-left: 1%;
 	padding-right: 1%;
 	float: left;
@@ -526,8 +530,8 @@ form{
 }
 
 #two .show-cont .images img{
-	max-height: 50%;
-	max-width: 48%;
+	height: 50%;
+	width: 48%;
 	padding: 1%;
 	float: left;
 }
@@ -812,8 +816,8 @@ hr.third {
 }
 
 #two .show-cont img {
-  max-height: 100%;
-  max-width: 98%;
+  height: 100%;
+  width: 98%;
   padding-left: 1%;
   padding-right: 1%;
   float: left;
@@ -824,7 +828,7 @@ hr.third {
 	overflow: hidden;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1050px) {
 
 #one .container{
 	margin-left: 10%;
@@ -906,6 +910,160 @@ hr.third {
   	padding-left: .66%;
 }
 
+.main .container .parallax {
+  	height: 125px;
+}
 
+}
+
+@media screen and (max-width: 499px) {
+
+#two .col p {
+  	font-size: 4em;
+  	height: 55px;
+}
+
+#two h1 {
+  	font-size: 3em;
+}
+
+#two .col p {
+  	font-size: 1.5em;
+  	height: 125px;
+}
+
+#two h2 {
+  	font-size: 2em;
+}
+
+#two .col .inside-img {
+  	width: 0%;
+ 	float: left;
+  	vertical-align: middle;
+}
+
+#two .col .inside-text {
+  	width: 100%;
+  	float: left;
+}
+
+#three .content form .input {
+  	width: 95%;
+}
+
+#two .board {
+  	width: 100%;
+}
+
+#two .list .inside-img {
+  	width: 0%;
+}
+
+#two .list .inside-text {
+	width: 100%;
+}
+
+#two .list2 .inside-text p {
+    font-size: 1.5em;
+  	height: 125px;
+}
+
+#two .list .inside-text p {
+	font-size: 1.5em;
+  	height: 125px;
+}
+
+#two .baner-beca h1{
+	font-size: 1.5em;
+}
+
+#two .baner-consejo h1{
+	font-size: 1.5em;
+}
+
+#two .baner-vida h1{
+	font-size: 1.5em;
+}
+
+#two .baner-practicas h1{
+	font-size: 1.5em;
+}
+
+#two .baner-tramites h1{
+	font-size: 1.5em;
+}
+
+#two .baner-noticia h1{
+	font-size: 1.5em;
+}
+
+#two .baner-actividad h1{
+	font-size: 1.5em;
+}
+
+#two .baner-link h1{
+	font-size: 1.5em;
+}
+
+#two h2 {
+  font-size: 1.7em;
+}
+
+#two .left-cont {
+  width: 100%;
+}
+
+#two .board-img{
+  height: 50%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
+#two .left-cont h3 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#two .right-cont {
+  width: 100%;
+  float: left;
+}
+
+#two .right-cont h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#two .right-cont p {
+  font-size: 1.5em;
+}
+
+#two .show-cont {
+  width: 100%;
+}
+
+#two .show-cont p {
+  font-size: 1.5em;
+}
+
+#two .show-cont h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#aviso {
+  width: 100%;
+  padding: 0;
+}
+
+#aviso h5 {
+  width: 100%;
+}
+
+#nuva {
+  	margin-right: 37%;
+ 	margin-left: 37%;
+}
 
 }
