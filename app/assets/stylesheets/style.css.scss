@@ -12,12 +12,8 @@ body {
 	background-color: #f5f5f5;
 }
 
-p, h1, h2{
+h1, h2{
 	margin: 0;
-}
-
-h1{
-	line-height: 70px;
 }
 
 body{
@@ -455,7 +451,6 @@ form{
 #two .left-cont{
 	width: 20%;
 	display: inline-table;
-	height: 506px;
 	float: left;
 	margin-left: 1%;
 	margin-right: 1%;
@@ -478,6 +473,7 @@ form{
 #two .pad{
 	width: 100%;
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #two .left-cont button{
@@ -712,7 +708,7 @@ hr.third {
 
 #two .baner-beca h1{
 	width: 100%;
-	margin: 9.5% auto;
+	margin: 8% auto;
 	text-align: center;
 	font-size: 3em;
 }
@@ -728,7 +724,7 @@ hr.third {
 
 #two .baner-consejo h1{
 	width: 100%;
-	margin: 9.5% auto;
+	margin: 8% auto;
 	text-align: center;
 	font-size: 3em;
 }
@@ -744,7 +740,7 @@ hr.third {
 
 #two .baner-vida h1{
 	width: 100%;
-	margin: 9.5% auto;
+	margin: 8% auto;
 	text-align: center;
 	font-size: 3em;
 }
@@ -760,7 +756,7 @@ hr.third {
 
 #two .baner-practicas h1{
 	width: 100%;
-	margin: 9.5% auto;
+	margin: 8% auto;
 	text-align: center;
 	font-size: 3em;
 }
@@ -776,7 +772,7 @@ hr.third {
 
 #two .baner-tramites h1{
 	width: 100%;
-	margin: 9.5% auto;
+	margin: 8% auto;
 	text-align: center;
 	font-size: 3em;
 }
@@ -792,7 +788,7 @@ hr.third {
 
 #two .baner-noticia h1{
 	width: 100%;
-	margin: 9.5% auto;
+	margin: 8% auto;
 	text-align: center;
 	font-size: 3em;
 }
@@ -808,7 +804,7 @@ hr.third {
 
 #two .baner-actividad h1{
 	width: 100%;
-	margin: 9.5% auto;
+	margin: 8% auto;
 	text-align: center;
 	font-size: 3em;
 }
@@ -824,7 +820,7 @@ hr.third {
 
 #two .baner-link h1{
 	width: 100%;
-	margin: 9.5% auto;
+	margin: 8% auto;
 	text-align: center;
 	font-size: 3em;
 }
@@ -849,135 +845,150 @@ hr.third {
 
 @media screen and (max-width: 1050px){
 
-#one .container{
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-#two .col{
-	width: 90%;
-}
-
-#two h2{
-	font-size: 1.7em;
-}
-
-#two .col p{
-	font-size: 1.2em;
-  height: 80px;
-}
-
-#three .content h1{
-	font-size: 2.5em;
-}
-
-#three p{
-	font-size: 1.2em;
-}
-
-#three .container{
-	margin-left: 15%;
-	margin-right: 15%;
-} 
-
-#two .left-cont{
-	width: 30%
-}
-
-#two .left-cont {
-  height: 600px;
-}
-
-#two .right-cont{
-	width: 64%;
-}
-
-#two .list .inside-img{
-	width: 25%;
-
-}
-
-#two .list .inside-text{
-	width: 75%;
-
-}
-#two .list p{
-	font-size: 1.2em;
-	 height: 80px;
-}
-
-#two .left-cont p {
-  	font-size: 1em;
-}
-
-#two .right-cont p{
-	font-size: 1.3em;
-}
-
-#two .show-cont p {
-  	font-size: 1.3em;
-}	
-
-#two .list2 .inside-text p{
-	font-size: 1.2em;
-	 height: 80px;
-
-}
-
-#two .left-cont h3 {
-  text-align: left;
-  font-size: 1em;
-}
-
-#two .list2 .inside-text a{
-	font-size: 1.3em;
-}
-
-#two .board {
-  	width: 32%;
-  	padding-right: .66%;
-  	padding-left: .66%;
-}
-
-.main .container .parallax {
-  	height: 125px;
-}
-
-}
-
-
-@media screen and (max-width: 414px) {
-
-	#one .container .content p {
-	  font-size: 1.5em;
-	}
-
-	#two h1 {
-	  	font-size: 4em;
+	#one .container{
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 
 	#two .col{
-	  	height: 50%;
+		width: 90%;
 	}
 
-	#two .col .pad .btn1 {
-  		font-size: 4em;
-  	}
-
-  	#two .col .pad .btn2 {
-  		font-size: 4em;
-  	}
-
-
-
-	#two .col p {
-	  font-size: 2.5em;
-	  height: 320px;
+	#two h2{
+		font-size: 1.7em;
 	}
 
-	#two h2 {
-	  	font-size: 3.5em;
+	#two .col p{
+		font-size: 1.2em;
+	  height: 80px;
 	}
+
+	#three .content h1{
+		font-size: 2.5em;
+	}
+
+	#three p{
+		font-size: 1.2em;
+	}
+
+	#three .container{
+		margin-left: 15%;
+		margin-right: 15%;
+	} 
+
+	#two .left-cont{
+		width: 30%
+	}
+
+
+	#two .right-cont{
+		width: 64%;
+	}
+
+	#two .list .inside-img{
+		width: 25%;
+
+	}
+
+	#two .list .inside-text{
+		width: 75%;
+
+	}
+	#two .list p{
+		font-size: 1.2em;
+		 height: 80px;
+	}
+
+	#two .left-cont p {
+	  	font-size: 1em;
+	}
+
+	#two .right-cont p{
+		font-size: 1.3em;
+	}
+
+	#two .right-cont h1{
+		font-size: 2.5em;
+		line-height: 70px;
+	}
+
+	#two .show-cont p {
+	  	font-size: 1.3em;
+	}	
+
+		#two .show-cont h1 {
+			font-size: 2.5em;
+		  	line-height: 70px;
+		}
+
+	#two .list2 .inside-text p{
+		font-size: 1.2em;
+		height: 80px;
+
+	}
+
+	#two .left-cont h3 {
+	  	text-align: left;
+	  	font-size: 1em;
+	}
+
+	#two .list2 .inside-text a{
+		font-size: 1.3em;
+	}
+
+	#two .board {
+	  	width: 32%;
+	  	padding-right: .66%;
+	  	padding-left: .66%;
+	}
+
+	.main .container .parallax {
+	  	height: 180px;
+	}
+
+	#two .baner-beca h1{
+		font-size: 2em;
+  		margin: 7% auto;
+	}
+
+	#two .baner-consejo h1{
+		font-size: 2em;
+  		margin: 7% auto;
+	}
+
+	#two .baner-vida h1{
+		font-size: 2em;
+  		margin: 7% auto;
+	}
+
+	#two .baner-practicas h1{
+		font-size: 2em;
+  		margin: 7% auto;
+	}
+
+	#two .baner-tramites h1{
+		font-size: 2em;
+  		margin: 7% auto;
+	}
+
+	#two .baner-noticia h1{
+		font-size: 2em;
+  		margin: 7% auto;
+	}
+
+	#two .baner-actividad h1{
+		  font-size: 2em;
+		  margin: 7% auto;
+	}
+
+	#two .baner-link h1{
+		font-size: 2em;
+  		margin: 7% auto;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
 
 	#two .col .inside-img {
 	  	width: 0%;
@@ -990,29 +1001,25 @@ hr.third {
 	  	float: left;
 	}
 
-	#three .content form .input {
-	  	width: 98%;
-	  	font-size: 3em;
-	}
-
-	#three .content form .submit {
-	  	font-size: 3em;
-	}
-
-	#three .content h1 {
-		font-size: 3em;
-	}
-
-	#three p {
-		font-size: 2.5em;
-	}
-
-	#three .content h2 {
-	  	font-size: 3em;
-	}
-
-	#two .board {
+	#two .left-cont {
 	  	width: 100%;
+		margin-left: 0%;
+  		margin-right: 0%;
+  		padding-left: 0%;
+  		padding-right: 0%;
+	}
+
+	#two .right-cont {
+		margin-left: 0%; 
+		margin-right: 0%;
+		margin-top: 0%;
+		width: 100%;
+	  	float: left;
+	}
+
+	#two .left-cont h3{
+		margin-left: 5%; 
+		margin-right: 5%;
 	}
 
 	#two .list .inside-img {
@@ -1023,207 +1030,279 @@ hr.third {
 		width: 100%;
 	}
 
+
+}
+
+@media screen and (max-width: 414px) {
+
+	#one .container .content p {
+	  	font-size: 1.2em;
+	}
+
+	#two h1 {
+	  	font-size: 2em;
+	}
+
+	#two .col{
+	  	height: 50%;
+	}
+
+	#two .col .pad .btn1 {
+  		font-size: 2em;
+  	}
+
+  	#two .col .pad .btn2 {
+  		font-size: 2em;
+  	}
+
+  	#two .col {
+  		width: 100%;
+	}
+
+	#two .col {
+	  	padding-right: 0%; 
+	  	padding-left: 0%; 
+	}
+
+	#two .col p {
+	  	font-size: 1em;
+	  	height: 200px;
+	}
+
+	#two h2 {
+	  	font-size: 1.7em;
+	}
+
+	#three .content form .input {
+	  	width: 95.5%;
+	  	font-size: 1.5em;
+	}
+
+	#three .content form .submit {
+	  	font-size: 1.5em;
+	}
+
+	#three .content h1 {
+		font-size: 1.5em;
+	}
+
+	#three p {
+		font-size: 1.25em;
+	}
+
+	#three .content h2 {
+	  	font-size: 1.5em;
+	}
+
+	#three .container {
+	  	margin-left: 10%;
+	  	margin-right: 10%;
+	}
+
+	#two .board {
+	  	width: 100%;
+	}
+
 	#two .list2 .inside-text p {
-	    font-size: 2.5em;
+	    font-size: 1em;
   		height: 325px;
 	}
 
 	#two .list .inside-text p {
-	  	font-size: 2.5em;
-  		height: 325px;
+	  	font-size: 1em;
+  		height: 200px;
 	}
 
 	#two .baner-beca h1{
-		font-size: 3.4em;
-  		margin: 1.5% auto;
+		font-size: 2em;
+		margin-bottom: 18%;
+		margin-top: 8%;
 	}
 
 	#two .baner-consejo h1{
-		font-size: 3.4em;
-  		margin: 1.5% auto;
+		font-size: 2em;
+		margin-bottom: 18%;
+		margin-top: 8%;
 	}
 
 	#two .baner-vida h1{
-		font-size: 3.4em;
-  		margin: 1.5% auto;
+		font-size: 2em;
+		margin-bottom: 18%;
+		margin-top: 8%;
 	}
 
 	#two .baner-practicas h1{
-		font-size: 3.4em;
-  		margin: 1.5% auto;
+		font-size: 2em;
+		margin-bottom: 18%;
+		margin-top: 8%;
 	}
 
 	#two .baner-tramites h1{
-		font-size: 3.4em;
-  		margin: 1.5% auto;
+		font-size: 2em;
+		margin-bottom: 18%;
+		margin-top: 8%;
 	}
 
 	#two .baner-noticia h1{
-		font-size: 3.4em;
-  		margin: 1.5% auto;
+		font-size: 2em;
+		margin-bottom: 18%;
+		margin-top: 8%;
 	}
 
 	#two .baner-actividad h1{
-		font-size: 3.4em;
-  		margin: 1.5% auto;
+		font-size: 2em;
+		margin-bottom: 18%;
+		margin-top: 8%;
 	}
 
 	#two .baner-link h1{
-		font-size: 3.4em;
-  		margin: 1.5% auto;
+		font-size: 2em;
+		margin-bottom: 18%;
+		margin-top: 8%;
 	}
 
 	#two .left-cont {
-	  width: 100%;
-	}
-
-	#two .left-cont p {
-	  font-size: 1em;
-	}
-
-	#two .board-img{
-	  margin-right: 20%;
-	  margin-left: 20%;
-	  margin-bottom: 5%;
-	}
-
-	#two .left-cont h3 {
-	  width: 95%;
-	  margin: 2.5% auto;
-	  font-size: 2.5em;
+	  	width: 100%;
+		margin-left: 0%;
+  		margin-right: 0%;
+  		padding-left: 0%;
+  		padding-right: 0%;
 	}
 
 	#two .right-cont {
-	  width: 100%;
-	  float: left;
+		margin-left: 0%; 
+		margin-right: 0%;
+		margin-top: 0%; 
+		width: 100%;
+	  	float: left;
+	}
+	#two .left-cont p {
+	  	font-size: 1em;
+	}
+
+
+	#two .board-img{
+	  	margin-right: 20%;
+	  	margin-left: 20%;
+	  	margin-bottom: 5%;
+	}
+
+	#two .left-cont h3 {
+	  	width: 95%;
+	  	margin: 2.5% auto;
+	  	font-size: 1em;
 	}
 
 	#two .right-cont h1 {
-	  font-size: 5em;
-	  text-align: center;
+	  	font-size: 2.5em;
+	  	text-align: center;
+	  	line-height: 80px;
 	}
 
 	#two .right-cont p {
-	  font-size: 3em;
+	  	font-size: 1em;
 	}
 
 	#two .show-cont {
-	  width: 100%;
+	  	width: 100%;
 	}
 
 	#two .show-cont p {
-	  font-size: 3em;
+	  	font-size: 1em;
 	}
 
 	#two .show-cont h1 {
-	  font-size: 5em;
-	  text-align: center;
+	  	font-size: 2.5em;
+	  	line-height: 80px;
+	  	text-align: center;
 	}
 
 	.footer{
-		font-size: 3em;
+		font-size: 1.5em;
 		line-height: normal;
 	}
 
 	#aviso {
-	  width: 100%;
-	  padding: 0;
+	  	width: 100%;
+	  	padding: 0;
 	}
 
 	#aviso h5 {
-	  width: 100%;
-	  margin-top: 5%;
-	  margin-bottom: 0;
+	  	width: 100%;
+	  	margin-top: 5%;
+	  	margin-bottom: 0;
+	  	font-size: .7em;
 	}
 
 	#nuva {
-	  	margin-right: 28%;
-	 	margin-left: 28%;
+	  	margin-right: 40%;
+	 	margin-left: 40%;
 	 	margin-top: 5%;
 	}
 
 	#two .board .board-text h3{
-		font-size: 3em;
+		font-size: 1.25em;
 	}
 
 	#two .left-cont button {
-	  	font-size: 3em;
+	  	font-size: 1.5em;
 	}
 
 	#two .right-cont img {
-	  height: 100%;
-	  width: 98%;
-	  padding: 1%;
+	  	height: 100%;
+	  	width: 98%;
+	  	padding: 1%;
 	}
 
 	#two .show-cont button {
-		font-size: 3em;
+		font-size: 1.5em;
+		width: initial;
 	}
 
 	#two .show-cont .images img {
-	  height: 100%;
-	  width: 98%;
-	  padding: 1%;
-	  float: left;
-	}
-
-	#two .left-cont {
-	  height: 1000px;
+	  	height: 100%;
+	  	width: 98%;
+	  	padding: 1%;
+	  	float: left;
 	}
 
 	#two .edit {
-	  font-size: 2em;
+	  	font-size: 1em;
 	}
 
 	#two h4 {
-	  font-size: 2.5em;
-	  margin-bottom: 1em;
-  	  margin-top: 1em;
+	  	font-size: 1.25em;
+	  	margin-bottom: 1em;
+  	  	margin-top: 1em;
 	}
 
 	#two .new {
-	  font-size: 2em;
+	  	font-size: 1.25em;
 	}
 
 	#two .edit {
-	  padding-top: 2%;
-	  padding-bottom: 2%;
+	  	padding-top: 2%;
+	  	padding-bottom: 2%;
 	}
 
-	hr.first {
-    height: 20px;
-    margin-bottom: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 10px 0 0 0;
-    border-radius: 20px;
-}
-	hr.second { /* Not really supposed to work, but does */
-	    display: block;
-	    content: "";
-	    height: 20px;
-	    margin-top: -31px;
-	    border-style: solid;
-	    border-color: black;
-	    border-width: 0 0 10px 0;
-	    border-radius: 20px;
-	}
-
-	hr.third {
-	    border: 0;
-	    height: 10px;
-	    border-color: black;
-	    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	}
 
 	#two .col .pad {
-	  padding-top: 50px;
-	  padding-bottom: 50px;
+	  	padding-top: 50px;
+	  	padding-bottom: 50px;
 	}
 
-	h1{
-	line-height: 150px;
 }
-	
+
+@media screen and (max-width: 320px) {
+
+	#three .container {
+	  	margin-left: 5%;
+	  	margin-right: 5%;
+	}
+
+	#nuva {
+	  	margin-right: 45%;
+	  	margin-top: 5%;
+	}
 
 }

@@ -7,7 +7,7 @@
       <hr class="first">
         <h1><%= @activity.name %></h1>
         <hr class="second">
-        <%= simple_format(@activity.description) %>
+        <p><%= simple_format(@activity.description) %></p>
         <hr class="third">
         <%= image_tag(@activity.photo1) %>
         <%= image_tag(@activity.photo2) %>
