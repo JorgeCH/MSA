@@ -8,9 +8,9 @@
 			<% @descriptions.each do |description| %>
 			<h1><%= description.name %></h1>
 
-			<p>
+			
 		  	<%= simple_format(description.text) %>
-			</p>
+			
 			<% end %>
 		</div>
 	</div>
@@ -142,8 +142,9 @@
 		<div class="content">
 			<h1>Contacto</h1>
 			<p><b>Mail: msa.southkorea@gmail.com</b>
-			<br>
+			<br><br>
 			<h2>Déjanos un mensaje.</h2>
+			<br>
 			<form action="//formspree.io/southkorea@gmail.com" method="POST">
 			    <input class="input" type="text" name="name" placeholder="Nombre">
 			    <input class="input" type="text" name="_replyto" placeholder="Correo" >
