@@ -828,7 +828,7 @@ hr.third {
 	overflow: hidden;
 }
 
-@media screen and (max-width: 1050px) {
+@media only screen and (max-width: 1050px) and (min-width: 376px) {
 
 #one .container{
 	margin-left: 10%;
@@ -916,154 +916,165 @@ hr.third {
 
 }
 
-@media screen and (max-width: 499px) {
 
-#two .col p {
-  	font-size: 4em;
-  	height: 55px;
-}
+@media only screen and (max-width: 375px)  and (min-width: 0px) {
 
-#two h1 {
-  	font-size: 3em;
-}
 
-#two .col p {
-  	font-size: 1.5em;
-  	height: 125px;
-}
+	#one .container{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 
-#two h2 {
-  	font-size: 2em;
-}
+	#two .col{
+		width: 90%;
+	}
 
-#two .col .inside-img {
-  	width: 0%;
- 	float: left;
-  	vertical-align: middle;
-}
+	#two .col p {
+	  	font-size: 4em;
+	  	height: 55px;
+	}
 
-#two .col .inside-text {
-  	width: 100%;
-  	float: left;
-}
+	#two h1 {
+	  	font-size: 3em;
+	}
 
-#three .content form .input {
-  	width: 95%;
-}
+	#two .col p {
+	  	font-size: 1.5em;
+	  	height: 125px;
+	}
 
-#two .board {
-  	width: 100%;
-}
+	#two h2 {
+	  	font-size: 2em;
+	}
 
-#two .list .inside-img {
-  	width: 0%;
-}
+	#two .col .inside-img {
+	  	width: 0%;
+	 	float: left;
+	  	vertical-align: middle;
+	}
 
-#two .list .inside-text {
-	width: 100%;
-}
+	#two .col .inside-text {
+	  	width: 100%;
+	  	float: left;
+	}
 
-#two .list2 .inside-text p {
-    font-size: 1.5em;
-  	height: 125px;
-}
+	#three .content form .input {
+	  	width: 95%;
+	}
 
-#two .list .inside-text p {
-	font-size: 1.5em;
-  	height: 125px;
-}
+	#two .board {
+	  	width: 100%;
+	}
 
-#two .baner-beca h1{
-	font-size: 1.5em;
-}
+	#two .list .inside-img {
+	  	width: 0%;
+	}
 
-#two .baner-consejo h1{
-	font-size: 1.5em;
-}
+	#two .list .inside-text {
+		width: 100%;
+	}
 
-#two .baner-vida h1{
-	font-size: 1.5em;
-}
+	#two .list2 .inside-text p {
+	    font-size: 1.5em;
+	  	height: 125px;
+	}
 
-#two .baner-practicas h1{
-	font-size: 1.5em;
-}
+	#two .list .inside-text p {
+		font-size: 1.5em;
+	  	height: 125px;
+	}
 
-#two .baner-tramites h1{
-	font-size: 1.5em;
-}
+	#two .baner-beca h1{
+		font-size: 1.5em;
+	}
 
-#two .baner-noticia h1{
-	font-size: 1.5em;
-}
+	#two .baner-consejo h1{
+		font-size: 1.5em;
+	}
 
-#two .baner-actividad h1{
-	font-size: 1.5em;
-}
+	#two .baner-vida h1{
+		font-size: 1.5em;
+	}
 
-#two .baner-link h1{
-	font-size: 1.5em;
-}
+	#two .baner-practicas h1{
+		font-size: 1.5em;
+	}
 
-#two h2 {
-  font-size: 1.7em;
-}
+	#two .baner-tramites h1{
+		font-size: 1.5em;
+	}
 
-#two .left-cont {
-  width: 100%;
-}
+	#two .baner-noticia h1{
+		font-size: 1.5em;
+	}
 
-#two .board-img{
-  height: 50%;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-bottom: 5%;
-}
+	#two .baner-actividad h1{
+		font-size: 1.5em;
+	}
 
-#two .left-cont h3 {
-  width: 80%;
-  margin: 0 auto;
-}
+	#two .baner-link h1{
+		font-size: 1.5em;
+	}
 
-#two .right-cont {
-  width: 100%;
-  float: left;
-}
+	#two h2 {
+	  font-size: 1.7em;
+	}
 
-#two .right-cont h1 {
-  font-size: 2em;
-  text-align: center;
-}
+	#two .left-cont {
+	  width: 100%;
+	}
 
-#two .right-cont p {
-  font-size: 1.5em;
-}
+	#two .board-img{
+	  height: 50%;
+	  margin-right: 20%;
+	  margin-left: 20%;
+	  margin-bottom: 5%;
+	}
 
-#two .show-cont {
-  width: 100%;
-}
+	#two .left-cont h3 {
+	  width: 80%;
+	  margin: 0 auto;
+	}
 
-#two .show-cont p {
-  font-size: 1.5em;
-}
+	#two .right-cont {
+	  width: 100%;
+	  float: left;
+	}
 
-#two .show-cont h1 {
-  font-size: 2em;
-  text-align: center;
-}
+	#two .right-cont h1 {
+	  font-size: 2em;
+	  text-align: center;
+	}
 
-#aviso {
-  width: 100%;
-  padding: 0;
-}
+	#two .right-cont p {
+	  font-size: 1.5em;
+	}
 
-#aviso h5 {
-  width: 100%;
-}
+	#two .show-cont {
+	  width: 100%;
+	}
 
-#nuva {
-  	margin-right: 37%;
- 	margin-left: 37%;
-}
+	#two .show-cont p {
+	  font-size: 1.5em;
+	}
+
+	#two .show-cont h1 {
+	  font-size: 2em;
+	  text-align: center;
+	}
+
+	#aviso {
+	  width: 100%;
+	  padding: 0;
+	}
+
+	#aviso h5 {
+	  width: 100%;
+	}
+
+	#nuva {
+	  	margin-right: 37%;
+	 	margin-left: 37%;
+	}
 
 }
