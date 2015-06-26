@@ -28,6 +28,7 @@
 	<div class="container">
 		<div class="content">
 			<div class="col">
+			<div class="not-text">
 				<h1>Noticias:</h1>
 				<br>
 				<% @announcements.order("id desc").limit(3).each do |announcement| %>
@@ -40,6 +41,7 @@
 				<% end %>
 				
 				<div class="pad"><a href="/announcements"><button class="btn1">Ver Más</button></a></div>
+			</div>
 			</div>
 			<div class="col">
 				<h1>Actividades:</h1>

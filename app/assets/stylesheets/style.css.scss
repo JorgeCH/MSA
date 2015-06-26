@@ -1,3 +1,4 @@
+
 html, 
 body {
     margin:0px;
@@ -246,7 +247,7 @@ form{
 
 #two .content h2{
 	text-align: left;
-	margin-top: 0;
+	
 }
 
 #two .content a {
@@ -256,7 +257,7 @@ form{
 
 #three .content h1, h2{
 	text-align: left;
-	margin-top: 0;	
+		
 }
 
 #three .content p b{
@@ -304,7 +305,7 @@ form{
 	background-color: #19191d;
 	color: #434343;
 	display: table-row;
-    height: 80px;
+	height: 100px;
     font-size: 1.1em;
 }
 
@@ -376,6 +377,8 @@ form{
 #two .new{
 	width: 100%;
 	float: left;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 #two .new a{
@@ -424,7 +427,7 @@ form{
 
 #two .board-img img{
 	width: 100%;
-	height: 100%;
+
 }
 
 #two .board .board-text{
@@ -828,7 +831,12 @@ hr.third {
 	overflow: hidden;
 }
 
-@media only screen and (max-width: 1050px) and (min-width: 376px) {
+#two .col .not-text{
+	width: 100%;
+	float: left;
+}
+
+@media screen and (max-width: 1050px){
 
 #one .container{
 	margin-left: 10%;
@@ -917,34 +925,28 @@ hr.third {
 }
 
 
-@media only screen and (max-width: 375px)  and (min-width: 0px) {
+@media screen and (min-width: 200px) and (max-width: 980px) {
 
-
-	#one .container{
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	#two .col{
-		width: 90%;
-	}
-
-	#two .col p {
-	  	font-size: 4em;
-	  	height: 55px;
+	#one .container .content p {
+	  font-size: 2.5em;
 	}
 
 	#two h1 {
 	  	font-size: 3em;
 	}
 
+	#two .col{
+	  	height: 50%;
+	}
+
+
 	#two .col p {
-	  	font-size: 1.5em;
-	  	height: 125px;
+	  	font-size: 2em;
+	  	height: initial;
 	}
 
 	#two h2 {
-	  	font-size: 2em;
+	  	font-size: 3em;
 	}
 
 	#two .col .inside-img {
@@ -959,7 +961,24 @@ hr.third {
 	}
 
 	#three .content form .input {
-	  	width: 95%;
+	  	width: 98%;
+	  	font-size: 3em;
+	}
+
+	#three .content form .submit {
+	  	font-size: 3em;
+	}
+
+	#three .content h1 {
+		font-size: 3em;
+	}
+
+	#three p {
+		font-size: 2.5em;
+	}
+
+	#three .content h2 {
+	  	font-size: 2.5em;
 	}
 
 	#two .board {
@@ -975,65 +994,65 @@ hr.third {
 	}
 
 	#two .list2 .inside-text p {
-	    font-size: 1.5em;
-	  	height: 125px;
+	    font-size: 2em;
+	  	height: initial;
 	}
 
 	#two .list .inside-text p {
-		font-size: 1.5em;
-	  	height: 125px;
+	  	font-size: 2em;
+	  	height: initial;
 	}
 
 	#two .baner-beca h1{
-		font-size: 1.5em;
+		font-size: 4em;
 	}
 
 	#two .baner-consejo h1{
-		font-size: 1.5em;
+		font-size: 4em;
 	}
 
 	#two .baner-vida h1{
-		font-size: 1.5em;
+		font-size: 4em;
 	}
 
 	#two .baner-practicas h1{
-		font-size: 1.5em;
+		font-size: 4em;
 	}
 
 	#two .baner-tramites h1{
-		font-size: 1.5em;
+		font-size: 4em;
 	}
 
 	#two .baner-noticia h1{
-		font-size: 1.5em;
+		font-size: 4em;
 	}
 
 	#two .baner-actividad h1{
-		font-size: 1.5em;
+		font-size: 4em;
 	}
 
 	#two .baner-link h1{
-		font-size: 1.5em;
-	}
-
-	#two h2 {
-	  font-size: 1.7em;
+		font-size: 4em;
 	}
 
 	#two .left-cont {
 	  width: 100%;
 	}
 
+	#two .left-cont p {
+	  font-size: 1em;
+	}
+
 	#two .board-img{
-	  height: 50%;
 	  margin-right: 20%;
 	  margin-left: 20%;
 	  margin-bottom: 5%;
 	}
 
 	#two .left-cont h3 {
-	  width: 80%;
+	  width: 95%;
 	  margin: 0 auto;
+	  font-size: 3em;
 	}
 
 	#two .right-cont {
@@ -1042,12 +1061,12 @@ hr.third {
 	}
 
 	#two .right-cont h1 {
-	  font-size: 2em;
+	  font-size: 3.5em;
 	  text-align: center;
 	}
 
 	#two .right-cont p {
-	  font-size: 1.5em;
+	  font-size: 2em;
 	}
 
 	#two .show-cont {
@@ -1055,12 +1074,17 @@ hr.third {
 	}
 
 	#two .show-cont p {
-	  font-size: 1.5em;
+	  font-size: 2em;
 	}
 
 	#two .show-cont h1 {
-	  font-size: 2em;
+	  font-size: 3.5em;
 	  text-align: center;
+	}
+
+	.footer{
+		font-size: 3em;
+		line-height: normal;
 	}
 
 	#aviso {
@@ -1070,11 +1094,85 @@ hr.third {
 
 	#aviso h5 {
 	  width: 100%;
+	  margin-bottom: 0;
 	}
 
 	#nuva {
-	  	margin-right: 37%;
-	 	margin-left: 37%;
+	  	margin-right: 28%;
+	 	margin-left: 28%;
+	 	margin-top: 10%;
+	}
+
+	#two .board .board-text h3{
+		font-size: 3em;
+	}
+
+	#two .left-cont button {
+	  	font-size: 3em;
+	}
+
+	#two .right-cont img {
+	  height: 100%;
+	  width: 98%;
+	  padding: 1%;
+	}
+
+	#two .show-cont button {
+		font-size: 3em;
+	}
+
+	#two .show-cont .images img {
+	  height: 100%;
+	  width: 98%;
+	  padding: 1%;
+	  float: left;
+	}
+
+	#two .left-cont {
+	  height: 1000px;
+	}
+
+	#two .edit {
+	  font-size: 2em;
+	}
+
+	#two h4 {
+	  font-size: 2.5em;
+	}
+
+	#two .new {
+	  font-size: 2em;
+	}
+
+	#two .edit {
+	  padding-top: 2%;
+	  padding-bottom: 2%;
+	}
+
+	hr.first {
+    height: 20px;
+    margin-bottom: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px 0 0 0;
+    border-radius: 20px;
+}
+	hr.second { /* Not really supposed to work, but does */
+	    display: block;
+	    content: "";
+	    height: 20px;
+	    margin-top: -31px;
+	    border-style: solid;
+	    border-color: black;
+	    border-width: 0 0 10px 0;
+	    border-radius: 20px;
+	}
+
+	hr.third {
+	    border: 0;
+	    height: 10px;
+	    border-color: black;
+	    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 	}
 
 }
