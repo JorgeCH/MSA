@@ -31,27 +31,6 @@ form{
 	display: inline;
 }
 
-.header .menu div a, a:visited{
-	display:inline-block;
-	height: inherit;
-	text-decoration: none;
-	vertical-align: middle;
-	margin-top: 1%;
-	margin-bottom: 1%;
-	line-height: 2.5em;
-	width: 6em;
-	color: inherit;
-	background-color: inherit;
-}
-
-.header{
-	width: 100%;
-	display: table;
-	background-color: #C62828;
-	color: #fff;
-	font-size: .8em;
-}
-
 .header .menu{
 	width: inherit;
 	height: 100%;
@@ -59,9 +38,9 @@ form{
 	display: table-cell;
 }
 
-.header .menu div{	
+.header .menu li{	
 	line-height:6em;
-	width: 6em;
+	width: 8em;
 	float:left;
 	margin-right: .5%;
 	margin-left: .5%;
@@ -75,6 +54,72 @@ form{
 .main{
 	width: 100%;
 	text-align: center;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+#mmenu {
+  display: none;
+}
+
+.header .menu div a, a:visited{
+	display:inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	line-height: 2.5em;
+	width: 6em;
+	color: inherit;
+	background-color: inherit;
+}
+
+.header{
+	float: left;
+	width: 100%;
+	background-color: #C62828;
+	color: #fff;
+	font-size: .8em;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+}
+
+ul, ol {
+	list-style:none;
+	margin: 0;
+}
+			
+.nav > li {
+	float:left;
+	line-height: 3em;
+}
+			
+.nav li a {
+	background-color: #C62828;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+			
+.nav li a:hover {
+	background-color:#434343;
+}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	
+}
+			
+.nav li:hover > ul {
+	display:block;
+}
+		
+.nav li ul li {
+	position:relative;
 }
 
 #slider{
@@ -854,6 +899,14 @@ hr.third {
 		width: 90%;
 	}
 
+	#sec2 {
+	  	background-size: contain;
+	}
+
+	#sec3 {
+	  	background-size: contain;
+	}
+
 	#two h2{
 		font-size: 1.7em;
 	}
@@ -916,10 +969,10 @@ hr.third {
 	  	font-size: 1.3em;
 	}	
 
-		#two .show-cont h1 {
-			font-size: 2.5em;
-		  	line-height: 70px;
-		}
+	#two .show-cont h1 {
+		font-size: 2.5em;
+	  	line-height: 70px;
+	}
 
 	#two .list2 .inside-text p{
 		font-size: 1.2em;
@@ -1035,6 +1088,18 @@ hr.third {
 
 @media screen and (max-width: 414px) {
 
+	#mmenu {
+		display: none;
+	}
+
+	.slicknav_menu {
+	    display: block;
+	  }
+
+	.header{
+		display: none;
+	}
+
 	#one .container .content p {
 	  	font-size: 1.2em;
 	}
@@ -1048,11 +1113,11 @@ hr.third {
 	}
 
 	#two .col .pad .btn1 {
-  		font-size: 2em;
+  		font-size: 1.2em;
   	}
 
   	#two .col .pad .btn2 {
-  		font-size: 2em;
+  		font-size: 1.2em;
   	}
 
   	#two .col {
@@ -1285,10 +1350,8 @@ hr.third {
 	  	padding-bottom: 2%;
 	}
 
-
-	#two .col .pad {
-	  	padding-top: 50px;
-	  	padding-bottom: 50px;
+	#two .col .pad a, a:visited {
+		padding: 0;
 	}
 
 }
