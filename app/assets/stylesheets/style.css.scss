@@ -234,7 +234,7 @@ ul, ol {
 #sec2{
 	display: block;
 	position: relative;
-	background: url('gyeongbokgung1.jpg');
+	background: url('gyeongbokgung1.jpg') no-repeat;
 	background-size: cover;
 	text-align: center;
 	color: white;
@@ -244,7 +244,7 @@ ul, ol {
 #sec3{
 	display: block;
 	position: relative;
-	background: url('gyeongbokgung2.jpg');
+	background: url('gyeongbokgung2.jpg') no-repeat;
 	background-size: cover;
 	text-align: center;
 	color: white;
@@ -900,11 +900,11 @@ hr.third {
 	}
 
 	#sec2 {
-	  	background-size: contain;
+	  	background-size: 100%;
 	}
 
 	#sec3 {
-	  	background-size: contain;
+	  	background-size: 100%;
 	}
 
 	#two h2{
@@ -1180,50 +1180,42 @@ hr.third {
 
 	#two .baner-beca h1{
 		font-size: 2em;
-		margin-bottom: 18%;
-		margin-top: 8%;
+		margin: 18% auto;
 	}
 
 	#two .baner-consejo h1{
 		font-size: 2em;
-		margin-bottom: 18%;
-		margin-top: 8%;
+		margin: 18% auto;
 	}
 
 	#two .baner-vida h1{
 		font-size: 2em;
-		margin-bottom: 18%;
-		margin-top: 8%;
+		margin: 18% auto;
 	}
 
 	#two .baner-practicas h1{
 		font-size: 2em;
-		margin-bottom: 18%;
-		margin-top: 8%;
+		margin: 18% auto;
 	}
 
 	#two .baner-tramites h1{
 		font-size: 2em;
-		margin-bottom: 18%;
-		margin-top: 8%;
+		margin: 18% auto;
 	}
 
 	#two .baner-noticia h1{
 		font-size: 2em;
-		margin-bottom: 18%;
-		margin-top: 8%;
+		margin: 18% auto;
 	}
 
 	#two .baner-actividad h1{
 		font-size: 2em;
-		margin-bottom: 18%;
-		margin-top: 8%;
+		margin: 18% auto;
 	}
 
 	#two .baner-link h1{
 		font-size: 2em;
-		margin-bottom: 18%;
-		margin-top: 8%;
+		margin: 18% auto;
 	}
 
 	#two .left-cont {
