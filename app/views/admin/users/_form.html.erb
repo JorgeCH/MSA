@@ -1,35 +1,43 @@
-<%= form_for [:admin, @user] do |f| %>
+<div class="main" id="two">
+  	<div class="container">
+    	<div class="log-2">
+			<%= form_for [:admin, @user] do |f| %>
 
-	<% if @user.errors.any? %>
-		<div id="error_explanation">
-			<h2><%= pluralize(@user.errors.count, "error") %> prohibited
-			this user from being saved:</h2>
-			<ul>
-			<% @user.errors.full_messages.each do |msg| %>
-				<li><%= msg %></li>
+				<% if @user.errors.any? %>
+					<div id="error_explanation">
+						<h2><%= pluralize(@user.errors.count, "error") %> prohibited
+						this user from being saved:</h2>
+						<ul>
+						<% @user.errors.full_messages.each do |msg| %>
+							<li><%= msg %></li>
+						<% end %>
+						</ul>
+					</div>
+				<% end %>
+				<p class="input">
+					<%= f.label :name, "Username" %><br>
+					<%= f.text_field :name %>
+				</p>
+				<p class="input">
+					<%= f.label :email %><br />
+					<%= f.text_field :email %>
+				</p>
+				<p class="input">
+					<%= f.label :password %><br />
+					<%= f.password_field :password %>
+				</p>
+				<p class="input">
+					<%= f.label :password_confirmation %><br>
+					<%= f.password_field :password_confirmation %>
+				</p>
+				<p class="check">
+					<%= f.check_box :admin %>
+					<%= f.label :admin, "Is an admin?" %>
+				</p>
+				<p class="submit">
+					<%= f.submit %>
+				</p>
 			<% end %>
-			</ul>
-		</div>
-	<% end %>
-	<p>
-		<%= f.label :name, "Username" %><br>
-		<%= f.text_field :name %>
-	</p>
-	<p>
-	<%= f.label :email %>
-	<%= f.text_field :email %>
-	</p>
-	<p>
-	<%= f.label :password %>
-	<%= f.password_field :password %>
-	</p>
-	<p>
-		<%= f.label :password_confirmation %><br>
-		<%= f.password_field :password_confirmation %>
-	</p>
-	<p>
-	<%= f.check_box :admin %>
-	<%= f.label :admin, "Is an admin?" %>
-	</p>
-	<%= f.submit %>
-<% end %>
+    	</div>
+  	</div>
+</div>

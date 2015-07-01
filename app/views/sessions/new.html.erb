@@ -1,20 +1,18 @@
 <div class="main" id="two">
-  <div class="container">
-    <div class="log">
-
-<h1>Log In</h1>
-<%= form_for :signin, method: "POST" do |f| %>
-	<p>
-	<%= f.label :email %><br />
-	<%= f.text_field :email, :placeholder => "Email" %>
-	</p>
-	<p>
-	<%= f.label :password %><br />
-	<%= f.password_field :password, :placeholder => "Password"%>
-	</p>
-	<%= f.submit "Log In" %>
-<% end %>
-
-    </div>
-  </div>
+  	<div class="container">
+   		<div class="log">
+			<h1>Log In</h1>
+			<%= form_for :signin, method: "POST" do |f| %>
+				<p class="input">
+				<%= f.label :email %><br />
+				<%= f.text_field :email, :placeholder => "Email" %>
+				</p>
+				<p class="input">
+				<%= f.label :password %><br />
+				<%= f.password_field :password, :placeholder => "Password"%>
+				</p>
+				<p class="submit"><%= f.submit "Log In" %></p>
+			<% end %>
+    	</div>
+  	</div>
 </div>

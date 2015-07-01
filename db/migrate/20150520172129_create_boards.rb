@@ -6,7 +6,6 @@ class CreateBoards < ActiveRecord::Migration
       t.string :email
       t.integer :year
       t.string :photo
-
       t.timestamps null: false
     end
   end

@@ -8,4 +8,9 @@ class WelcomeController < ApplicationController
   	@prearrivals = Prearrival.all
   	@lives = Life.all
   end
+
+  def sitemap
+  	render layout: 'otros'
+  end
+
 end

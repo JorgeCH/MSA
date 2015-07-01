@@ -29,7 +29,7 @@ class DescriptionsController < ApplicationController
 
     respond_to do |format|
       if @description.save
-        format.html { redirect_to @description, notice: 'Description was successfully created.' }
+        format.html { redirect_to descriptions_path, notice: 'Description was successfully created.' }
         format.json { render :show, status: :created, location: @description }
       else
         format.html { render :new }

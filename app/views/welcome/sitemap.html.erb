@@ -1,0 +1,46 @@
+<div class="sitemap">
+	<div class="column">
+
+		<h1 class="cent-h">Mapa del Sitio</h1>
+
+		<ul class="links">
+		<li><div><%= link_to 'Home', root_path %></div></li>
+		<li> <a>Nosotros / Us</a> 
+			<ul>
+				<% if current_user %><li><div><%= link_to 'MSA', descriptions_path %></div></li><% end %>
+				<li><div><%= link_to 'Miembros/Board', boards_path %></div></li>
+				<li><div><%= link_to 'Actividades/Activities', activities_path %></div></li>
+			</ul>
+		</li>
+		<li><a>Vida estudiantil / Student life</a>
+			<ul>
+				<li><div><%= link_to 'Trámites / Procedure', formalities_path %></div></li>
+				<li><div><%= link_to 'Consejos / Advices', prearrivals_path %></div></li>
+				<li><div><%= link_to 'Prácticas / Practices', jobs_path %></div></li>
+			</ul>
+		</li>
+		<li><div><%= link_to 'Noticias / News', announcements_path %></div></li>
+		<li><div><%= link_to 'Relacionados / Related', links_path %></div></li>
+		<li>
+			<div>
+			<% if current_user %>
+				<%= link_to "Log out", logout_path, method: :delete %>
+			<% else %>
+				<%= link_to "Log In", login_path %>
+			<% end %>
+			</div>
+		</li>
+		<li>
+			<div>
+				<% if current_user %>
+					<% admins_only do %>
+						<%= link_to "Admin Panel", admin_root_path %>
+					<% end %>
+				<% else %>
+					
+				<% end %>
+			</div>
+		</li>
+	</ul>		
+	</div>
+</div>

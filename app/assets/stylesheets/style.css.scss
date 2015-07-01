@@ -38,7 +38,7 @@ form{
 	display: table-cell;
 }
 
-.header .menu li{	
+.header .menu li{
 	line-height:6em;
 	width: 8em;
 	float:left;
@@ -158,10 +158,6 @@ ul, ol {
 	text-align: left;
 }
 
-#two{
-	overflow: hidden;
-}
-
 #two .container{
 	margin-right: 10%;
 	margin-left: 10%;
@@ -278,11 +274,25 @@ ul, ol {
 #two .col .pad .btn1{
 	color: white;
 	background-color: #C92020;
+	transition: 0.5s;	
+}
+
+#two .col .pad .btn1:hover{
+	color: #fff;
+	background-color: #434343;
+	transition: 0.5s;	
 }
 
 #two .col .pad .btn2{
 	color: white;
 	background-color: #798EE0;
+	transition: 0.5s;	
+}
+
+#two .col .pad .btn2:hover{
+	color: #fff;
+	background-color: #434343;
+	transition: 0.5s;	
 }
 
 #two .col .pad a, a:visited{
@@ -434,12 +444,18 @@ ul, ol {
 #two .new a{
 	margin: 0;
 	padding: 0;
-	background: #C62828;
+	background-color: #C62828;
 	color: #fff;
 	border-width: 1px;
 	border-color: #000; 
 	padding: 0.2em 0.5em;
 	margin-right: 1px;
+	transition: 0.5s;
+}
+
+#two .new a:hover{
+	background-color: #434343;
+	transition: 0.5s;	
 }
 
 #two .list2{
@@ -544,6 +560,7 @@ ul, ol {
 #two .right-cont h1{
 	font-size: 2em;
 	text-align: center;
+	line-height: 2;
 }
 
 #two .right-cont p{
@@ -567,6 +584,7 @@ ul, ol {
 #two .show-cont h1{
 	font-size: 2em;
 	text-align: center;
+	line-height: 2;
 }
 
 #two .show-cont p{
@@ -738,7 +756,42 @@ hr.third {
 	width: 100%;
 }
 
-#two .cent-h{
+#two .log .input input{
+	width: 50%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #1E2B9E;
+	font-size: 1em;
+}
+
+#two .log .submit{
+	width: 51%;
+	margin: auto;
+}
+
+#two .log .check{
+	width: 25%;
+	margin: 3% auto;
+}
+
+#two .log .submit input{
+	width: 100%;
+	border-style: solid;
+	border-width: 3px;
+	font-size: 1em;
+	vertical-align: middle;
+	border-color: #1E2B9E;
+	background-color: #fff;	
+	transition: 0.5s;
+}
+
+#two .log .submit input:hover{
+	background-color: #434343;
+	color: #fff;
+	transition: 0.5s;	
+}
+
+.cent-h{
 	text-align: center;
 }
 
@@ -888,6 +941,104 @@ hr.third {
 	float: left;
 }
 
+#two .panel{
+	width: 60%;
+	margin: 10% auto;
+}
+
+#two #users .mail{
+	width: 40%;
+	margin-right: 5%;
+	float:left;
+}
+
+#two #users .option{
+	width: 20%;
+	margin-right: 7.5%;
+	float:left;
+}
+
+#two #users{
+	text-align: left;
+	width: 80%;
+	margin: 2.5% auto;
+}
+
+#two #users .new-2 a{
+  margin: 0;
+  padding: 0;
+  background-color: #C62828;
+  color: #fff;
+  border-width: 1px;
+  border-color: #000;
+  margin-right: 1px;
+  transition: 0.5s;
+}
+
+#two #users .new-2 a:hover{
+	background-color: #434343;
+	transition: 0.5s;	
+}
+
+#two .log-2 {
+  width: 40%;
+  margin: 0% auto;
+  padding-bottom: 2.5%;
+  background-color: #C62828;
+  color: #fff;
+}
+
+#two #users .new-2 #op-1 a {
+ 	padding: 0.2em 1.65em;
+}
+
+#two #users .new-2 #op-2 a {
+ 	padding: 0.2em 1em;
+}
+
+.sitemap{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	float: left;
+	width: 100%;
+	height: 100%;
+	font-size: 1.2em;
+	background-color: #19191d;
+}
+
+.sitemap .column{
+	width: 21.5%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.sitemap .column .links a{
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.sitemap .column .links a:hover{
+	text-decoration: none;
+	background-color: #fff;
+	color:#19191d;
+	transition: 0.5s;
+}
+
+.sitemap .column .links ul li a{
+	text-decoration: none;
+}
+
+.sitemap .column .links ul{
+	margin: 1% auto;
+}
+
+.sitemap .column .links li{
+	margin: 1% auto;
+}
+
+
+
 @media screen and (max-width: 1050px){
 
 	#one .container{
@@ -900,12 +1051,11 @@ hr.third {
 	}
 
 	#sec2 {
-	  	background-size: 100%;
+	  	background-size: contain;
 	}
 
 	#sec3 {
-	  	background-size: 100%;
-	  	padding-top: 50%;
+	  	background-size: contain; 	
 	}
 
 	#two h2{
@@ -914,7 +1064,7 @@ hr.third {
 
 	#two .col p{
 		font-size: 1.2em;
-	  height: 80px;
+	  	height: 80px;
 	}
 
 	#three .content h1{
@@ -1040,6 +1190,25 @@ hr.third {
   		margin: 7% auto;
 	}
 
+	#two .log{
+	width: 80%;
+	margin: 20% auto;
+	padding-bottom: 2.5%;
+	background-color: #C62828;
+	color: #fff;
+	}
+
+	#two #users {
+		width: 100%;
+		font-size: 1em;
+	}
+
+	.sitemap .column{
+		width: 33.5%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1084,10 +1253,25 @@ hr.third {
 		width: 100%;
 	}
 
+	#two .panel {
+  		width: 80%;
+  		margin: 25% auto;
+	}
+
+	#aviso {
+  		width: 60%;
+  		padding-left: 0%;
+	}
+
+	.sitemap .column{
+		width: 44.5%;
+		margin: 0 auto;
+		padding: 0;
+	}
 
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 670px) {
 
 	#mmenu {
 		display: none;
@@ -1100,6 +1284,21 @@ hr.third {
 	.header{
 		display: none;
 	}
+
+	#aviso h5 {
+		width: 45%;
+	}
+
+	.sitemap .column{
+		width: 52.5%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 414px) {
+
 
 	#one .container .content p {
 	  	font-size: 1.2em;
@@ -1344,6 +1543,48 @@ hr.third {
 	}
 
 	#two .col .pad a, a:visited {
+		padding: 0;
+	}
+
+	#two #users {
+  		text-align: center;
+	}
+
+	#two #users .mail {
+  		width: 100%;
+  		margin: 2.5% auto;
+	}
+
+	#two #users .option {
+		width: 50%;
+		margin: 5% auto;
+		float: left;
+	}
+
+	#two #users .option a{
+		width: 3em;
+	}
+
+	#two .log-2 {
+		width: 100%;
+	}
+
+	#two .panel {
+		margin: 10% auto;
+	}
+
+	#two .new {
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	#two .log {
+		width: 100%;
+	}
+
+	.sitemap .column{
+		width: 100%;
+		margin: 0 auto;
 		padding: 0;
 	}
 
