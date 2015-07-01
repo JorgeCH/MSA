@@ -1051,11 +1051,17 @@ hr.third {
 	}
 
 	#sec2 {
-	  	background-size: contain;
+	  	background-size: 667px;
 	}
 
 	#sec3 {
-	  	background-size: contain; 	
+	  	background-size: 667px; 	
+	}
+
+	#sec3 .container img{
+		padding-top: 25%;
+		height: 50%;
+		width: 50%;
 	}
 
 	#two h2{
