@@ -795,6 +795,33 @@ hr.third {
 	text-align: center;
 }
 
+ .baner-inicio{
+	width: 100%;
+	display: inline-block;
+	background: url('bg.png') no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+ .baner-inicio h1{
+	width: 40%;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 2em;
+}
+
+ .baner-inicio h2{
+	width: 40%;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.baner-inicio .marg{
+	margin: 18.8% auto;
+}
+
 #two .baner-beca{
 	width: 100%;
 	display: block;
@@ -1147,7 +1174,7 @@ hr.third {
 	}
 
 	.main .container .parallax {
-	  	height: 180px;
+	  	height: 150px;
 	}
 
 	#two .baner-beca h1{
@@ -1207,6 +1234,20 @@ hr.third {
 		width: 33.5%;
 		margin: 0 auto;
 		padding: 0;
+	}
+
+	.baner-inicio h1{
+		font-size: 1.2em;
+
+	}
+
+	.baner-inicio h2{
+		font-size: .9em;
+
+	}
+
+	.baner-inicio .marg{
+		margin: 19.2% auto;
 	}
 
 }
@@ -1269,6 +1310,15 @@ hr.third {
 		padding: 0;
 	}
 
+	.baner-inicio h1{
+		width: 41%;
+
+	}
+
+	.baner-inicio .marg{
+		margin: 18% auto;
+	}
+
 }
 
 @media screen and (max-width: 670px) {
@@ -1293,6 +1343,34 @@ hr.third {
 		width: 52.5%;
 		margin: 0 auto;
 		padding: 0;
+	}
+
+	.baner-inicio .marg{
+		margin: 17.5% auto;
+	}
+
+	.baner-inicio {
+		width: 100%;
+		display: inline-block;
+		background: url("bg-2.png") no-repeat;
+		background-size: cover;
+		color: white;
+	}
+
+	.baner-inicio h1{
+		width: 70%;
+		text-align: center;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 2em;
+	}
+
+	.baner-inicio h2{
+		width: 70%;
+		text-align: center;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1.2em;
 	}
 
 }
@@ -1589,6 +1667,27 @@ hr.third {
 		padding: 0;
 	}
 
+	.baner-inicio .marg{
+		margin: 17.5% auto;
+	}
+
+
+	.baner-inicio h1{
+		width: 70%;
+		text-align: center;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: 1.2em;
+	}
+
+	.baner-inicio h2{
+		width: 70%;
+		text-align: center;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: .9em;
+	}
+
 }
 
 @media screen and (max-width: 320px) {
@@ -1601,6 +1700,23 @@ hr.third {
 	#nuva {
 	  	margin-right: 45%;
 	  	margin-top: 5%;
+	}
+
+	.baner-inicio .marg{
+		margin: 17% auto;
+	}
+
+
+	.baner-inicio h1{
+		font-size: 1em;
+	}
+
+	.baner-inicio h2{
+		width: 70%;
+		text-align: center;
+		margin-left: 15%;
+		margin-right: 15%;
+		font-size: .8em;
 	}
 
 }
