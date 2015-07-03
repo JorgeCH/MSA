@@ -1254,6 +1254,18 @@ hr.third {
 
 @media screen and (max-width: 768px) {
 
+	#mmenu {
+		display: none;
+	}
+
+	.slicknav_menu {
+	    display: block;
+	  }
+
+	.header{
+		display: none;
+	}
+
 	#two .col .inside-img {
 	  	width: 0%;
 	 	float: left;
@@ -1322,18 +1334,6 @@ hr.third {
 }
 
 @media screen and (max-width: 670px) {
-
-	#mmenu {
-		display: none;
-	}
-
-	.slicknav_menu {
-	    display: block;
-	  }
-
-	.header{
-		display: none;
-	}
 
 	#aviso h5 {
 		width: 45%;
