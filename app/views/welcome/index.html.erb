@@ -11,7 +11,7 @@
 <div class="main" id="one">
 	<div class="container">
 		<div class="content">
-			<% @descriptions.each do |description| %>
+			<% @descriptions.limit(1).each do |description| %>
 			<h1><%= description.name %></h1>
 
 		  	<%= simple_format(description.text) %>

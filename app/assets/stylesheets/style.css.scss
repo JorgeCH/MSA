@@ -100,7 +100,7 @@ ul, ol {
 	background-color: #C62828;
 	color:#fff;
 	text-decoration:none;
-	padding:10px 12px;
+	padding:12px 12px;
 	display:block;
 }
 			
@@ -110,8 +110,17 @@ ul, ol {
 			
 .nav li ul {
 	display:none;
-	position:absolute;
-	
+	position:absolute;	
+}
+
+.header .inside-img{
+	padding-top: 12%;
+}
+
+.header .inside-img img{
+	line-height: 3em;
+	height: 50px;
+	float: left;
 }
 			
 .nav li:hover > ul {
