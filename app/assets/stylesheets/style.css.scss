@@ -314,6 +314,10 @@ ul, ol {
 
 }
 
+#two .content{
+	padding-bottom: 0;	
+}
+
 #two .content h2{
 	text-align: left;
 	
@@ -383,16 +387,27 @@ ul, ol {
 	margin: 1% auto;
 }
 
-#aviso{
-	width: 47.5%;
-	padding-left: 10%;
+#desc{
+	width: 30%;
+	padding-left: 2.5%;
+	margin-top: 1%;
 	height: 100%;
 	float: left;
-	text-align: right;
+	text-align: left;
+	font-size: .8em;
+}
+
+#aviso{
+	width: 20%;
+	margin-top: 1%;
+	padding-left: 15%;
+	height: 100%;
+	float: left;
+	text-align: left;
 }
 
 #aviso h5{
-	width: 35%;
+	width: 30%;
 	height: 100%;
 	float: left;
 	text-align: center;
@@ -403,9 +418,11 @@ ul, ol {
 }
 
 #nuva{
-	width: 30%;
+	width: 15%;
+	margin-top: 1%;
+	padding-left: 15%;
 	height: 100%;
-	float: right;
+	float: left;
 
 }
 
@@ -1259,6 +1276,33 @@ hr.third {
 		margin: 19.2% auto;
 	}
 
+	#desc{
+		width: 30%;
+		padding-left: 2.5%;
+		margin-top: 1%;
+		height: 100%;
+		float: left;
+		text-align: left;
+		font-size: .8em;
+	}
+
+	#aviso{
+		width: 30%;
+		margin-top: 1%;
+		padding-left: 13%;
+		height: 100%;
+		float: left;
+		text-align: left;
+	}
+
+	#nuva{
+		width: 10%;
+		margin-top: 1%;
+		padding-left: 14%;
+		height: 100%;
+		float: left;
+	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -1322,9 +1366,22 @@ hr.third {
 
 	#aviso {
   		width: 60%;
-  		padding-left: 0%;
+  		padding-left: 31%;
+  		padding-right: 9%;
 	}
 
+	#nuva {
+	  	margin-left: 29%;
+	  	margin-top: 5%;
+	}
+
+	#desc{
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-top: 1%;
+	}
+	
 	.sitemap .column{
 		width: 44.5%;
 		margin: 0 auto;
@@ -1570,6 +1627,7 @@ hr.third {
 	#aviso {
 	  	width: 100%;
 	  	padding: 0;
+	  	padding-bottom: 5%;
 	}
 
 	#aviso h5 {
@@ -1579,9 +1637,13 @@ hr.third {
 	  	font-size: .7em;
 	}
 
+	#desc{
+		font-size: .65em;
+	}
+
 	#nuva {
-	  	margin-right: 40%;
-	 	margin-left: 40%;
+	  	margin-right: 65%;
+	 	margin-left: 26.5%;
 	 	margin-top: 5%;
 	}
 
@@ -1708,6 +1770,7 @@ hr.third {
 
 	#nuva {
 	  	margin-right: 45%;
+	  	margin-left: 24%;
 	  	margin-top: 5%;
 	}
 
